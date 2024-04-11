@@ -1,13 +1,8 @@
 import React from "react";
-// import { Head } from "next/head";
 
 const Login = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      {/* <Head>
-        <title>Login</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head> */}
 
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h2 className="text-center font-bold text-2xl mb-4">Login</h2>
@@ -49,6 +44,9 @@ const Login = () => {
             </button>
           </div>
         </form>
+        <div className='text-center mt-4'>
+            Don&apos;t have an account? <br /> Sign up here!
+        </div>
       </div>
     </div>
   );
